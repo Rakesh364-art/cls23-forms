@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend style="font-size: 2rem">Personal Details</legend>
+        <div>
+          <label for="name">First Name</label>
+          <input id="name" />
+        </div>
+        <div>
+          <label for="lastname">Last Name</label>
+          <input id="lastname" />
+        </div>
+        <div>
+          <label for="mail">gmail</label>
+          <input id="mail" />
+        </div>
+        <div>
+          <label for="password">Password</label>
+          <input id="password" />
+        </div>
+        <div>
+          <label for="number">Phone Number</label>
+          <input id="number" />
+        </div>
+        <div>
+          <label for="address">Address</label>
+          <textarea>address</textarea>
+        </div>
+        <div>
+          <label>State</label>
+
+          <select>
+            <option>select state</option>
+            <optgroup label="south States">
+              <option>Telangana</option>
+              <option>Andhrapradesh</option>
+              <option>Karnataka</option>
+            </optgroup>
+            <optgroup label="north States">
+              <option>punjab</option>
+              <option>Uttarpradesh</option>
+              <option>Rajastan</option>
+            </optgroup>
+            <optgroup label="east Staes">
+              <option>Jarkand</option>
+              <option>odisha</option>
+            </optgroup>
+            <optgroup label="west Staes">
+              <option>gujarat</option>
+              <option>maharastra</option>
+            </optgroup>
+          </select>
+        </div>
+        <div>
+          <label>Fav cricket player</label>
+          <input list="players" />
+
+          <datalist id="players">
+            <option>Rohith Sharma</option>
+            <option>Virat Kohli</option>
+            <option>M.S Dhoni</option>
+          </datalist>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend style="font-size: 2rem">Marks Details</legend>
+        <div>
+          <label for="telugu">Telugu</label>
+          <input id="telugu" />
+        </div>
+        <div>
+          <label for="hindi">Hindi</label>
+          <input id="hindi" />
+        </div>
+        <div>
+          <label for="english"> English</label>
+          <input id="english" />
+        </div>
+        <div>
+          <label for="maths">Maths</label>
+          <input id="maths" />
+        </div>
+        <div>
+          <label for="science">Science</label>
+          <input id="science" />
+        </div>
+        <div>
+          <label for="social">Social</label>
+          <input id="social" />
+        </div>
+        <div>
+          <button type="button" style="background-color: red">Button</button>
+        </div>
+      </fieldset>
+    </form>
+  </body>
+</html>
